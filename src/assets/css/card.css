@@ -1,0 +1,58 @@
+.tamano-card {
+    width: 250px;
+    height: 342;
+    padding-top: 5px;
+}
+
+.tamano-img {
+    width: 130px;
+    height: 180px;
+    margin: auto;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-categoria {
+    color: #25c16a;
+}
+
+.categoria-gramos span {
+    background-color: #25c16a;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+}
+
+.titulo-producto {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+
+.texto-precio {
+    font-size: 1.2rem;
+    text-align: left;
+}
+.signo-peso {
+    color: #25c16a;
+}
+.texto-unidad {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.card-footer {
+    background-color: #25c16a;
+    color: #fff;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+#card:hover > #card-footer {
+    /*visibility: visible;*/
+    display: block;
+}

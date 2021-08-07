@@ -1,0 +1,32 @@
+.navbar {
+    padding: initial;
+    background-color: #25c16a !important;
+}
+.diseno-input {
+    border-radius: 20px !important;
+}
+
+.buscador-span {
+    position: absolute;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    color: grey;
+}
+nav > div.cart.col-md-2 > span {
+    position: absolute;
+    top: 0rem;
+    right: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    /*border: 1px solid red;*/
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    color: white;
+    padding: 0rem;
+    font-size: 1rem;
+    font-weight: 700;
+    /* background-color: red;*/
+}

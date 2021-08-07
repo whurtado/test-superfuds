@@ -1,0 +1,13 @@
+.carrito {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-carrito {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cantidad-items-carrito span {
+    color: #25c16a;
+}
